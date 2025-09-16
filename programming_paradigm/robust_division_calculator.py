@@ -1,7 +1,7 @@
 def safe_divide(numerator, denominator):
     try:
-        numerator = float(input("Enter the numerator: "))
-        denominator = float(input("Enter the denominator: "))
+        numerator = float(numerator)
+        denominator = float(denominator)
         result = numerator / denominator
     except ValueError:
         print("Invalid input. Please enter numeric values.")
